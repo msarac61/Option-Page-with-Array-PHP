@@ -90,9 +90,6 @@
 		
 	));
 		
-
-	// Sare benim kızımın ismi class isimlerini "Sare" yazdım.
-
 	function data($array) {
 
 		foreach($array as $val) {
@@ -101,7 +98,7 @@
 				
 				case 'text':
 				echo '<div class="sare-fields">';
-				echo '<div class="title">'.$val['label'].'</div>';
+				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				echo '<input type="text" name="'.$val['id'].'" value="'.$val['standart'].'">';
 				echo '</div>';
@@ -109,7 +106,7 @@
 				
 				case 'textarea':
 				echo '<div>';
-				echo '<div class="title">'.$val['label'].'</div>';
+				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				echo '<textarea type="text" name="'.$val['id'].'">'.$val['standart'].'</textarea>';
 				echo '</div>';			
@@ -117,7 +114,7 @@
 				
 				case 'checkbox':
 				echo '<div class="sare-fields">';
-				echo '<div class="title">'.$val['label'].'</div>';
+				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				foreach($val['choices'] as $choices) {
 					if($choices['value'] == $val['standart']) {
@@ -131,7 +128,7 @@
 				
 				case 'radio':
 				echo '<div class="sare-fields">';
-				echo '<div class="title">'.$val['label'].'</div>';
+				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				foreach($val['choices'] as $choices) {
 					if($choices['value'] == $val['standart']) {
@@ -145,7 +142,7 @@
 				
 				case 'dropdown':
 				echo '<div class="sare-fields">';
-				echo '<div class="title">'.$val['label'].'</div>';
+				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				echo '<select name="'.$val['id'].'">';
 				foreach($val['choices'] as $choices) {
