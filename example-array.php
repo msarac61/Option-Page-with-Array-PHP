@@ -36,6 +36,7 @@
 			),
 			
 			'standart'     => 'no',
+			
 		),	
 		
 		array(
@@ -57,6 +58,7 @@
 			),
 			
 			'standart'     => 'yes'
+			
 		),
 		
 		array(
@@ -81,7 +83,9 @@
 				),	
 				
 			),
+			
 			'standart'     => 'mercedes',
+			
 		),	
 		
 	));
