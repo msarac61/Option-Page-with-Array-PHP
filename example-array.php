@@ -92,6 +92,7 @@
 	function data($array) {
 		
 		foreach($array as $val) {
+			
 			switch ($val['type']) {
 				
 				case 'text':
