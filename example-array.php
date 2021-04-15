@@ -117,11 +117,13 @@
 				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				foreach($val['choices'] as $choices) {
+					
 					if($choices['value'] == $val['standart']) {
 						echo '<input name="'.$val['id'].'[]" type="checkbox" checked>'.$choices['label'].'';
 					} else {
 						echo '<input name="'.$val['id'].'[]" type="checkbox">'.$choices['label'].'';			
 					}
+					
 				}
 				echo '</div>';
 				break;
@@ -131,11 +133,13 @@
 				echo '<div class="sare-title">'.$val['label'].'</div>';
 				echo '<hr>';
 				foreach($val['choices'] as $choices) {
+					
 					if($choices['value'] == $val['standart']) {
 						echo '<input name="'.$val['id'].'" type="radio" checked>'.$choices['label'].'';
 					} else {
 						echo '<input name="'.$val['id'].'" type="radio">'.$choices['label'].'';			
-					}				
+					}	
+					
 				}
 				echo '</div>';						
 				break;
@@ -146,11 +150,13 @@
 				echo '<hr>';
 				echo '<select name="'.$val['id'].'">';
 				foreach($val['choices'] as $choices) {
+					
 					if($choices['value'] == $val['standart']) {
 						echo '<option value="'.$choices['value'].'" selected>'.$choices['label'].'</option>';
 					} else {
 						echo '<option value="'.$choices['value'].'">'.$choices['label'].'</option>';
-					}				
+					}
+					
 				}
 				echo '</select>';
 				echo '</div>';						
