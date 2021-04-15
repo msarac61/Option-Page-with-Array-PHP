@@ -1,7 +1,5 @@
 # Option-Page-with-Array-PHP
-
 Using Code Example
-
 ```
 
 <form method="post">
