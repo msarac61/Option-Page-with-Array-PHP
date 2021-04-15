@@ -1,8 +1,8 @@
 # Option-Page-with-Array-PHP
 
-#USİNG
+## Using Code Example
 
-<code>
+```
 
 <form method="post">
 
@@ -12,4 +12,4 @@
   
 </form>
 
-</code>
+```
