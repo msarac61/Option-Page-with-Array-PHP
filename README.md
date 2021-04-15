@@ -20,7 +20,6 @@ print_r('</pre>');
 
 or
 
-```php
-	var_dump($_POST);
+```php var_dump($_POST);
 ```
 
