@@ -87,7 +87,7 @@
 	));
 		
 
-	// Sare benim kızımın ismi class isimlerini "Sare" verdim
+	// Sare benim kızımın ismi class isimlerini "Sare" yazdım.
 
 	function data($array) {
 		
