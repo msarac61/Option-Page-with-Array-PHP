@@ -82,11 +82,11 @@
 			),
 			'standart'     => 'mercedes',
 		),	
+		
+	));
+	
 
-	),
-);
-
-// Sare benim kızımın ismi class isimlerini "Sare" verdim
+	// Sare benim kızımın ismi class isimlerini "Sare" verdim
 
   function data($array) {
 	foreach($array as $val) {
