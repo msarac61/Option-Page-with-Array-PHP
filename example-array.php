@@ -94,9 +94,9 @@
 	// Sare benim kızımın ismi class isimlerini "Sare" yazdım.
 
 	function data($array) {
-		
+
 		foreach($array as $val) {
-			
+
 			switch ($val['type']) {
 				
 				case 'text':
@@ -160,8 +160,9 @@
 				break;			
 				
 			}
+			
 		}
-		
+
 	}
 
 ?>
