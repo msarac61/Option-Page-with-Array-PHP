@@ -1,7 +1,5 @@
 <?php
-
-$box = array(
-	'fields'  => 
+	$box = array('fields'  => 
 	 array(
 		array(
 			'label'       => 'Example - 1',
@@ -72,8 +70,8 @@ $box = array(
 	),
 );
 
+// Sare benim kızımın ismi class isimlerini "Sare" verdim
 
-// Sare Benim Kızımın ismi O Nedenlere Classlara "Sare" ismini ekledim.
   function data($array) {
 	foreach($array as $val) {
 		switch ($val['type']) {
