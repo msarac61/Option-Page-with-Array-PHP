@@ -1,4 +1,4 @@
-## Using Code Example
+Using Code Example
 
 ```php
 <form method="post">
